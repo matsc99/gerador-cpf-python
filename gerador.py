@@ -1,17 +1,9 @@
 import random
 
 # Define os noves primeiros digitos do cpf
-d1 = random.randint(0, 9)
-d2 = random.randint(0, 9)
-d3 = random.randint(0, 9)
-d4 = random.randint(0, 9)
-d5 = random.randint(0, 9)
-d6 = random.randint(0, 9)
-d7 = random.randint(0, 9)
-d8 = random.randint(0, 9)
-d9 = random.randint(0, 9)
-
-nove_digitos = f'{d1}{d2}{d3}{d4}{d5}{d6}{d7}{d8}{d9}'
+nove_digitos = ''
+for i in range(9):
+    nove_digitos += str(random.randint(0, 9))
 
 # Define primeiro digito validador
 contador_regressivo_1 = 10
