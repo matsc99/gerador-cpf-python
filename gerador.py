@@ -1,6 +1,6 @@
 import random
 
-# Define os noves primeiros digitos do cpf
+# Define os nove primeiros digitos do cpf
 nove_digitos = ''
 for i in range(9):
     nove_digitos += str(random.randint(0, 9))
